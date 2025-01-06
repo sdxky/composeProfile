@@ -238,17 +238,6 @@ fun EditTextDialog(
     }
 }
 
-@Composable
-fun CustomText(text: String, onClick: () -> Unit) {
-    Text(
-        modifier = Modifier
-            .padding(end = 8.dp)
-            .clickable { onClick },
-        text = text,
-        fontSize = 20.sp
-    )
-}
-
 
 @OptIn(ExperimentalGlideComposeApi::class)
 @Composable
